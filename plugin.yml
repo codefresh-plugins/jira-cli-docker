@@ -8,7 +8,7 @@ sources:
 maintainers: # (optional)
   - name: Ant Weiss
     email: anton@otomato.link
-icon: https://github.com/codefresh-plugins/jira-cli-docker/blob/master/icon.jpg
+icon: https://raw.githubusercontent.com/codefresh-plugins/jira-cli-docker/blob/master/icon.jpg
 envs:
   - name: JIRA_URL
     type: required
