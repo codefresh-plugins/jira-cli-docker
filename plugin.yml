@@ -2,7 +2,8 @@ image: codefreshplugins/jira-cli
 version: 0.1.0
 description: Update a Jira ticket
 categories:
-  - utility
+  - Utility
+  - Project Management
 keywords:
   - jira
 sources:
