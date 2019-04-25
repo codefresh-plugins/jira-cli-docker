@@ -1,7 +1,7 @@
 
 UpdateJira:   
   title: Update Jira Issue
-  image: codefreshplugins/jira-cli:alpine
+  image: codefreshplugins/jira-cli
   commands:     
     - yes n | jira-cli update ${JIRAID} --comment 'New docker image otomato/bringon:${{CF_SHORT_REVISION}}. Build log is here ${{CF_BUILD_URL}}' --jira-url ${JIRA_URL} -u ${JIRA_USR} -p ${JIRA_PWD}
   when:     

@@ -3,7 +3,7 @@ steps:
   BuildImage:
     title: Building Docker Image
     type: build
-    image_name: codefreshplugins/jira-cli-docker
+    image_name: codefreshplugins/jira-cli
   PushingToRegistry:
     type: push
     title: Pushing To Registry
